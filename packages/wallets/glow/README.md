@@ -1,6 +1,6 @@
 # `@solana/wallet-adapter-glow`
 
-[Glow](https://glow.app) is an easy-to-use, secure wallet for iOS.
+[Glow](https://glow.app) is an easy-to-use, secure Solana wallet.
 
 ## Platforms
 
@@ -8,7 +8,7 @@ We support the following platforms:
 
 - **Desktop** Browser extension that works across Chrome, Brave, Edge, and Firefox
 - **iOS** Safari extension that you can use in your native Safari browser
-- **Android** in-app browser (coming August 2022)
+- **Android** In-app browser
 
 ## Resources
 
@@ -18,8 +18,7 @@ We support the following platforms:
 
 ## Setting Network
 
-On Glow, the dApp is responsible for choosing the network that processes the transaction. We simulate all transactions
-before prompting the user to approve them and if the dApp doesn't choose the right network, the simulation will fail.
+On Glow, the dApp is responsible for choosing the network that processes the transaction. We simulate all transactions before prompting the user to approve them. If the dApp doesn't choose the right network, the simulation will fail.
 
 ```ts
 // This will default to Mainnet
